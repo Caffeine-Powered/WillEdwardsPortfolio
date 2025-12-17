@@ -1,3 +1,6 @@
+body {
+    background-color: #fff3e6;
+}
 /*------------------------------------------------------------TOP NAV */
 
 .bg-img {
@@ -25,7 +28,7 @@
 /* The navbar */
 .topnav {
     overflow: hidden;
-    background-color: #8e4585;
+    background-color: #391032;
 }
 
 /* Navbar links */
