@@ -1,12 +1,21 @@
 body {
-    background-color: #fff3e6;
+    background-image: url("CyberpunkScene.png");
+     background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.HeaderText {
+    font-size: 40px;
+    font-family:'Segoe UI';
+    color:#ffffff;
+}
+
+
 /*------------------------------------------------------------TOP NAV */
 
 .bg-img {
     /* The image used */
     background-image: url("LinkedInHeader.png");
-
     min-height: 380px;
 
     /* Center and scale the image nicely */
@@ -29,6 +38,7 @@ body {
 .topnav {
     overflow: hidden;
     background-color: #391032;
+    border-radius: 10px;
 }
 
 /* Navbar links */
@@ -55,7 +65,8 @@ body {
 .row {
     display: flex;
     flex-wrap: wrap;
-    padding: 0 4px
+    padding: 0 4px;
+    /*background-color: #391032; */
 }
 
 /* Create four equal columns that sits next to each other */
@@ -63,6 +74,7 @@ body {
     flex: 25%;
     max-width: 33%;
     padding: 0 4px;
+    
 }
 
 
@@ -70,6 +82,7 @@ body {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 10px;
 }
 
 
@@ -85,7 +98,12 @@ body {
 
 .header {
     text-align: left;
-    padding: 32px;
+    padding: 30px;
+    font-family:'Segoe UI';
+    color:#ffffff;
+
+    background-size: cover;
+
 }
 
 /*--------------------------------------------------------Showreel*/
@@ -93,13 +111,16 @@ body {
 .showreel {
     display: flex;
     flex-wrap: wrap; 
+    gap: 20px;
     justify-content: center;
+    background-size: auto; 
 }
 
 .showreel img {
     margin-top: 8px;
     vertical-align: middle;
     width: 100%;
+    border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
